@@ -1,0 +1,44 @@
+- title: Community
+  url: https://raku.org/community/
+  links:
+      - name: raku IRC channel
+        url: https://raku.org/community/irc
+      - name: Raku on Rosetta Code
+        url: https://raku.org/community/rosettacode
+      - name: Blogs
+        url: https://pl6anet.org/
+
+- title: Resources
+  url: https://raku.org/resources/
+  links:
+      - name: Getting started
+        url: https://raku.org/getting-started/
+      - name: Raku Documentation
+        url: https://docs.raku.org/
+      - name: Migration guides
+        url: https://docs.raku.org/language.html#Migration_guides
+
+- title: Modules
+  url: https://modules.raku.org/
+  links:
+      - name: Raku modules directory
+        url: https://modules.raku.org/
+      - name: Zef
+        url: https://modules.raku.org/dist/zef:github
+
+- title: Compilers
+  url: https://raku.org/compilers/
+  links:
+      - name: Rakudo
+        url: https://rakudo.org/
+      - name: MoarVM
+        url: https://moarvm.org/
+
+- title: Language design
+  url: https://raku.org/compilers/
+  links:
+      - name: Specification
+        url: https://github.com/perl6/roast
+      - name: Speculations
+        url: https://design.raku.org/
+

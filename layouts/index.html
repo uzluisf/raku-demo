@@ -1,0 +1,122 @@
+{{ define "header"}}
+<header class="jumbotron">
+  <h1>{{ i18n "raku_programming_language" }}</h1>
+  <p class="lead">{{ i18n "raku_description" }}</p>
+  {{ range .Site.Params.buttons }}
+    <a href="{{ .url | relLangURL }}" class="btn btn-primary">{{ .name }}</a>
+  {{ end }}
+</header>
+{{ end }}
+
+{{ define "main" }}
+<div class="row">
+  <div class="col-lg-12">
+    <section id="why-raku" class="accordion">
+      <h2 class="section-heading">{{ i18n "why_raku" }}</h2>
+
+      <div class="code-examples">
+        <select title="Choose a code example to display">
+        {{ range .Site.Data.snippets }}
+          <option data-example="{{ .title | i18n }}">{{ .title | i18n }}</option>
+        {{ end }}
+        </select>
+
+        {{ range .Site.Data.snippets }}
+          <div class="code-unit example " data-example="{{ .title | i18n }}">
+            <div class="code-description"><p>{{ .text | i18n }}</p></div>
+            <div class="code-snippet">
+                {{ $path := .url | printf "/%s" | printf "%s" }}
+                {{ readFile $path | safeHTML }}
+            </div>
+          </div>
+        {{ end }}
+      </div>
+
+    </section>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-12">
+    <section id="resources">
+      <h2 class="section-heading">{{ i18n "resources" }}</h2>
+      <h3>{{ i18n "guides" }}</h3>
+      <ul>
+        <li><a href="https://raku.guide/">{{ i18n "raku_guide" }}</a></li>
+        <li><a href="https://learnxinyminutes.com/docs/raku/">{{ i18n "learn_raku_in_y_minutes" }}</a></li>
+      </ul>
+      <!-- <h3>Examples</h3>
+           <ul>
+           <li><a href="https://rosettacode.org/wiki/Category:Perl_6">Rosetta Code</a></li>
+           <li><a href="https://examples.perl6.org/">Raku Examples</a></li>
+           </ul> -->
+      <h3>{{ i18n "books" }}</h3>
+      <h4>{{ i18n "new_to_programming" }}</h4>
+      <ul>
+        <li><a href="https://github.com/LaurentRosenfeld/think_raku">{{ i18n "think_raku" }}</a></li>
+      </ul>
+      <!-- <h3>Try online</h3> -->
+      <h3>{{ i18n "comming_from_another_pl" }}</h3>
+      <p>{{ i18n "if_comming_from_another_pl" | safeHTML }}
+        <br>
+        <a href="https://docs.raku.org/language/py-nutshell">{{ i18n "python" }}</a>,
+        <a href="https://docs.raku.org/language/js-nutshell">{{ i18n "javascript" }}</a>,
+        <a href="https://docs.raku.org/language/rb-nutshell">{{ i18n "ruby" }}</a>,
+        <a href="https://docs.raku.org/language/haskell-to-p6">{{ i18n "haskell" }}</a>,
+        <a href="https://docs.raku.org/language/5to6-overview">{{ i18n "perl" }}</a>
+      </p>
+      <p>{{ i18n "using_inline_modules" }}
+        <br>
+        <a href="https://github.com/niner/Inline-Python">Inline::Python</a>,
+        <a href="https://github.com/niner/Inline-Perl5">Inline::Perl</a>,
+        <a href="https://modules.raku.org/dist/Inline::Go:cpan:AZAWAWI">Inline::Go</a>,
+        <a href="https://github.com/awwaiid/p6-Inline-Ruby">Inline::Ruby</a>,
+        <a href="https://github.com/raydiak/Inline-Lua">Inline::Lua</a>
+      </p>
+    </section>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4">
+    <section id="community">
+      <h2 class="section-heading">{{ i18n "community" }}</h2>
+      <ul>
+        <li>{{ i18n "irc" }}: <a href="https://webchat.freenode.net/?channels=raku&nick=">#raku</a>, <a href="http://colabti.org/irclogger/irclogger_log/raku">{{ i18n "logs" }}</a></li>
+        <li>{{ i18n "matrix" }}:
+          <ul>
+            <li>{{ i18n "room" }}: <a href="https://matrix.to/#/#freenode_#raku:matrix.org">#freenode_#raku:matrix.org</a></li>
+            <li>{{ i18n "community" }}: <a href="https://matrix.to/#/+raku:matrix.org">+raku:matrix.org</a></li>
+          </ul>
+        </li>
+        <li>{{ i18n "proprietary" }}:
+          <ul>
+            <li>{{ i18n "discord" }}: <a href="https://discord.gg/VzYpdQ6">{{ i18n "raku_server" }}</a></li>
+          </ul>
+      </ul>
+    </section>
+  </div>
+  <div class="col-md-4">
+    <section id="social-media">
+      <h2 class="section-heading">{{ i18n "social_media" }}</h2>
+      <ul>
+        <li>{{ i18n "twitter" }}: <a href="https://twitter.com/raku_news">@raku_news</a>, <a href="https://twitter.com/hashtag/rakulang">#rakulang</a></li>
+        <li>{{ i18n "reddit" }}: <a href="https://www.reddit.com/r/rakulang/">r/rakulang</a></li>
+        <li>{{ i18n "github" }}: <a href="https://github.com/Raku">@Raku</a></li>
+        <li>{{ i18n "stack_overflow" }}: <a href="https://stackoverflow.com/questions/tagged/raku">[raku]</a></li>
+        <li>{{ i18n "rss" }}: <a href="{{ "/blog/index.xml" | relLangURL }}">{{ i18n "blog_feed" }}</a></li>
+      </ul>
+    </section>
+  </div>
+  <div class="col-md-4">
+    <section id="language">
+      <h2 class="section-heading">{{ i18n "language" }}</h2>
+      <ul>
+        {{ range $.Site.Home.AllTranslations }}
+        <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+        {{ end }}
+      </ul>
+    </section>
+  </div>
+</div>
+{{ .Content }}
+{{ end }}

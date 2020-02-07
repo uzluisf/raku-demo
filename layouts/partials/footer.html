@@ -1,0 +1,30 @@
+<footer class="page-footer font-small indigo">
+  <div class="container text-center text-md-left">
+    <!-- Grid row -->
+    <div class="row">
+      <!-- Grid column -->
+      {{ range .Site.Data.footer }}
+      <div class="col-md-2 mx-auto">
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4"><a href="{{.url}}">{{.title}}</h5>
+        <ul class="list-unstyled">
+          {{ range .links }}
+          <li><a href="{{.url}}">{{.name}}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+      <hr class="clearfix w-100 d-md-none">
+      {{ end }}
+
+    </div>
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">
+    <p class="col-sm-12 text-center"><i class="glyphicon glyphicon-info-sign"></i>
+    If you want to contribute to this page, <a href="/about/">look here for instructions</a>.
+    </p>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+<script type="text/javascript" src="{{.Site.BaseURL}}assets/js/all.js"></script>

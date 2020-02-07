@@ -1,0 +1,10 @@
+<div class="highlight"><pre><span></span><span class="nb">say</span> <span class="s">&#39;🦋&#39;</span>.<span class="nb">chars</span>;        <span class="c1"># OUTPUT: «1␤»</span>
+<span class="nb">say</span> <span class="s">&#39;🦋&#39;</span>.<span class="nb">codes</span>;        <span class="c1"># OUTPUT: «1␤»</span>
+<span class="nb">say</span> <span class="s">&#39;🦋&#39;</span>.<span class="n">encode</span>.<span class="nb">bytes</span>; <span class="c1"># OUTPUT: «4␤»</span>
+
+<span class="k">my</span> <span class="nv">$raku</span> = <span class="s">&#39;راکو&#39;</span>;
+<span class="nb">say</span> <span class="nv">$raku</span>.<span class="nb">chars</span>;    <span class="c1"># OUTPUT: «4␤»</span>
+<span class="nb">say</span> <span class="nv">$raku</span>.<span class="n">uninames</span>; <span class="c1"># OUTPUT: «(ARABIC LETTER REH ARABIC LETTER ALEF ARABIC LETTER KEHEH ARABIC LETTER WAW)␤»</span>
+<span class="nb">say</span> <span class="nv">$raku</span>.<span class="nb">comb</span>;     <span class="c1"># OUTPUT: «(ر ا ک و)␤»</span>
+<span class="nb">say</span> +<span class="nv">$raku</span>.<span class="nb">comb</span>;    <span class="c1"># OUTPUT: «4␤»</span>
+</pre></div>

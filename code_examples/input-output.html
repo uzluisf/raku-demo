@@ -1,0 +1,30 @@
+<div class="highlight"><pre><span></span><span class="c1"># Reading from a file</span>
+
+<span class="c1"># get a file handle for reading</span>
+<span class="k">my</span> <span class="nv">$fh</span> = <span class="nb">open</span> <span class="s">&quot;testfile&quot;</span>, :<span class="n">r</span>;
+
+<span class="c1"># get a file&#39;s contents</span>
+<span class="k">my</span> <span class="nv">$contents</span> = <span class="nv">$fh</span>.<span class="nb">slurp</span>;
+
+<span class="c1"># close the file handle</span>
+<span class="nv">$fh</span>.<span class="nb">close</span>;
+
+<span class="c1"># alternatively, do everything at once by letting</span>
+<span class="c1"># `slurp` to open and close the file for you</span>
+<span class="nv">$contents</span> = <span class="nb">slurp</span> <span class="s">&quot;testfile&quot;</span>
+
+<span class="c1"># Writing to a file</span>
+
+<span class="c1"># get the file handle for writing</span>
+<span class="nv">$fh</span> = <span class="nb">open</span> <span class="s">&quot;testfile&quot;</span>, :<span class="n">w</span>;
+
+<span class="c1"># print content into file</span>
+<span class="nv">$fh</span>.<span class="nb">say</span>(<span class="s">&quot;New content with newline.&quot;</span>);
+
+<span class="c1"># close the file handle</span>
+<span class="nv">$fh</span>.<span class="nb">close</span>;
+
+<span class="c1"># alternatively, do everything at once by letting</span>
+<span class="c1"># `spurt` to open and close the file for you.</span>
+<span class="n">spurt</span> <span class="s">&quot;testfile&quot;</span>, <span class="s">&quot;More data\n&quot;</span>, :<span class="n">append</span>;
+</pre></div>
