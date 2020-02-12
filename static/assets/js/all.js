@@ -51,10 +51,11 @@ Light/dark theme toggler
 function initTheme() {
   const darkThemeSelected =
     localStorage.getItem('light-dark-switch') !== null &&
-    localStorage.getItem('light-darkh-switch') === 'light';
+    localStorage.getItem('light-dark-switch') === 'light';
     darkSwitch.checked = darkThemeSelected;
-    darkThemeSelected ? document.body.setAttribute('data-theme', 'light') :
-    document.body.removeAttribute('data-theme');
+    darkThemeSelected
+        ? document.body.setAttribute('data-theme', 'light')
+        : document.body.removeAttribute('data-theme');
 }
 
 /**

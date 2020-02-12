@@ -1,4 +1,6 @@
 <section {{ with .Get "id"}}id="{{.}}"{{ end }}>
-  {{ with .Get "heading" }}<h2 class="section-heading">{{.}}</h2>{{ end }}
+  {{ with .Get "heading" }}
+    <a href=""><h3 class="section-heading">{{.}}</h3></a>
+  {{ end }}
   {{ .Inner | markdownify }}
 </section>

@@ -1,17 +1,14 @@
 <div class="highlight"><pre><span></span><span class="k">sub</span> <span class="n">static</span>( <span class="nb">Int</span> <span class="nv">$a</span>, <span class="nb">Int</span> <span class="nv">$b</span> -&gt; <span class="nb">Int</span> ) {
-	<span class="nv">$a</span> + <span class="nv">$b</span>
+    <span class="nv">$a</span> + <span class="nv">$b</span>
 }
 
 <span class="k">sub</span> <span class="n">dynamic</span>( <span class="nv">$a</span>, <span class="nv">$b</span> ) {
-	<span class="nv">$a</span> + <span class="nv">$b</span>
+    <span class="nv">$a</span> + <span class="nv">$b</span>
 }
 
 <span class="nb">say</span> <span class="n">static</span>(<span class="mi">2</span>, <span class="mi">5</span>);          <span class="c1"># OUTPUT: «7␤»</span>
-
 <span class="n">static</span>(<span class="mi">2</span>, <span class="s">&#39;oops&#39;</span>);         <span class="c1"># ERROR: ... will never work with declared signature ...</span>
-
 <span class="nb">say</span> <span class="n">dynamic</span>(<span class="s">&lt;a b&gt;</span>, <span class="s">&lt;c d&gt;</span>); <span class="c1"># OUTPUT: «4␤»</span>
-
 <span class="n">dynamic</span>(<span class="mi">2</span>, <span class="s">&#39;oops&#39;</span>);        <span class="c1"># ERROR: Cannot convert string to number ...</span>
 
 <span class="c1"># Subsets</span>
@@ -24,7 +21,7 @@
 
 <span class="nb">say</span> <span class="n">f</span> <span class="mi">1</span>, <span class="mi">2</span>; <span class="c1"># OUTPUT: «[1 4]␤»</span>
 
-<span class="c1"># Native Types</span>
+<span class="c1"># Native types</span>
 
 <span class="k">my</span> <span class="nb">int</span> <span class="nv">@a</span> = ^<span class="mi">10_000_000</span>;
 <span class="nb">say</span> [+] <span class="nv">@a</span>; <span class="c1"># OUTPUT: «49999995000000␤»</span>

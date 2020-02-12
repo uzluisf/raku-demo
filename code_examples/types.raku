@@ -1,17 +1,14 @@
 sub static( Int $a, Int $b -> Int ) {
-	$a + $b
+    $a + $b
 }
 
 sub dynamic( $a, $b ) {
-	$a + $b
+    $a + $b
 }
 
 say static(2, 5);          # OUTPUT: «7␤»
-
 static(2, 'oops');         # ERROR: ... will never work with declared signature ...
-
 say dynamic(<a b>, <c d>); # OUTPUT: «4␤»
-
 dynamic(2, 'oops');        # ERROR: Cannot convert string to number ...
 
 # Subsets
@@ -24,7 +21,7 @@ sub f( ℕ $a, ℕ $b --> Array of ℕ ) {
 
 say f 1, 2; # OUTPUT: «[1 4]␤»
 
-# Native Types
+# Native types
 
 my int @a = ^10_000_000;
 say [+] @a; # OUTPUT: «49999995000000␤»
