@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/blog/</loc>
+    <lastmod>2020-02-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://uzluisf.github.io/raku-demo/fa/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uzluisf.github.io/raku-demo/blog/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/blog/2020/02/03/post2/</loc>
+    <lastmod>2020-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/</loc>
+    <lastmod>2020-02-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://uzluisf.github.io/raku-demo/fa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uzluisf.github.io/raku-demo/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/blog/2020/02/02/post1/</loc>
+    <lastmod>2020-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://uzluisf.github.io/raku-demo/fa/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uzluisf.github.io/raku-demo/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://uzluisf.github.io/raku-demo/fa/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uzluisf.github.io/raku-demo/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/community/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://uzluisf.github.io/raku-demo/fa/community/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uzluisf.github.io/raku-demo/community/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/docs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/downloads/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://uzluisf.github.io/raku-demo/fa/downloads/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uzluisf.github.io/raku-demo/downloads/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/compilers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/community/irc/</loc>
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/fun/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://uzluisf.github.io/raku-demo/fa/fun/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uzluisf.github.io/raku-demo/fun/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/resources/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://uzluisf.github.io/raku-demo/fa/resources/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uzluisf.github.io/raku-demo/resources/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/compilers/std-viv/</loc>
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://uzluisf.github.io/raku-demo/fa/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uzluisf.github.io/raku-demo/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/whatever/</loc>
+  </url>
+  
+</urlset>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/fa/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uzluisf.github.io/raku-demo/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://uzluisf.github.io/raku-demo/fa/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/fa/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uzluisf.github.io/raku-demo/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://uzluisf.github.io/raku-demo/fa/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/fa/blog/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uzluisf.github.io/raku-demo/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://uzluisf.github.io/raku-demo/fa/blog/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/fa/downloads/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uzluisf.github.io/raku-demo/downloads/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://uzluisf.github.io/raku-demo/fa/downloads/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/fa/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uzluisf.github.io/raku-demo/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://uzluisf.github.io/raku-demo/fa/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/fa/fun/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uzluisf.github.io/raku-demo/fun/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://uzluisf.github.io/raku-demo/fa/fun/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/fa/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uzluisf.github.io/raku-demo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://uzluisf.github.io/raku-demo/fa/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/fa/resources/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uzluisf.github.io/raku-demo/resources/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://uzluisf.github.io/raku-demo/fa/resources/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://uzluisf.github.io/raku-demo/fa/community/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uzluisf.github.io/raku-demo/community/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://uzluisf.github.io/raku-demo/fa/community/"
+                />
+  </url>
+  
+</urlset>
